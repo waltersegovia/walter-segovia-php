@@ -62,7 +62,7 @@ class Triangulo extends FiguraGeometrica{
    
    public function Dibujar(){
      $this->CalcularDatos();
-     echo "  *  \n ***\n*****\n";
+     echo "<br/>  *  <br/>\n ***<br/>\n*****<br/>\n";
      echo "Superficie: ". $this->superficie;
      echo "\n";
    }
