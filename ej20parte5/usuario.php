@@ -23,7 +23,9 @@ class Usuario
         else
         {
 	    echo "Faltan datos";
-        $resultado = "faltan datos";
+            var_dump($usuario->nombre);
+            var_dump($usuario->clave);
+        $resultado = "Faltan datos";
         }
 
         $archivo = fopen("log.txt","a");
