@@ -11,7 +11,7 @@ class Usuario
         {           
 	        if($usuario->nombre == "admin" && $usuario->clave == "1234")
 	        {
-		        echo "OK";
+		        echo "Usuario OK";
                 $resultado = "OK";
 	        }
 	        else
@@ -22,7 +22,7 @@ class Usuario
         }           
         else
         {
-	    echo "faltan datos";
+	    echo "Faltan datos";
         $resultado = "faltan datos";
         }
 
